@@ -34,7 +34,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 7
 Title ""
 Date "14 sep 2013"
 Rev ""
@@ -55,8 +55,6 @@ S 7900 2950 1600 950
 U 52340B73
 F0 "Thermocouple" 50
 F1 "Thermocouple.sch" 50
-F2 "TC IN +" I R 9500 3150 60 
-F3 "TC IN -" I R 9500 3300 60 
 $EndSheet
 $Sheet
 S 7900 5850 1600 950 
@@ -65,7 +63,7 @@ F0 "Relay" 50
 F1 "Relay.sch" 50
 $EndSheet
 $Sheet
-S 3350 1200 2100 1500
+S 1300 1100 2100 1500
 U 52340BB7
 F0 "Power" 50
 F1 "Power.sch" 50
