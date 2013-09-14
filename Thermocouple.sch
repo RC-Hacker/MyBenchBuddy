@@ -48,4 +48,12 @@ Text HLabel 8550 3000 2    60   Input ~ 0
 TC IN +
 Text HLabel 8550 3250 2    60   Input ~ 0
 TC IN -
+Text HLabel 1800 2050 0    60   Input ~ 0
+MOSI
+Text HLabel 1800 2200 0    60   Output ~ 0
+MISO
+Text HLabel 1800 2350 0    60   Input ~ 0
+SCLK
+Text HLabel 1800 2500 0    60   Input ~ 0
+CS_N
 $EndSCHEMATC

@@ -34,7 +34,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 4 8
 Title ""
 Date "14 sep 2013"
 Rev ""
@@ -44,4 +44,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 2650 2350 0    60   Input ~ 0
+DIN+
+Text HLabel 2650 2550 0    60   Input ~ 0
+DIN-
+Text HLabel 9050 3400 0    60   Input ~ 0
+Relay+
+Text HLabel 9050 3600 0    60   Output ~ 0
+Relay-
 $EndSCHEMATC
