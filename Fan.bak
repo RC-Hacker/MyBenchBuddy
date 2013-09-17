@@ -309,4 +309,7 @@ Wire Wire Line
 Connection ~ 5300 3000
 Text Notes 3700 3000 0    60   ~ 0
 Did Chris miss this connection?
+Wire Wire Line
+	5700 2450 5700 2150
+Connection ~ 5700 2150
 $EndSCHEMATC
