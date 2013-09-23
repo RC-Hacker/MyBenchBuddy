@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:BenchBuddy
 LIBS:MyBenchBuddy-cache
 EELAYER 27 0
 EELAYER END
@@ -36,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title ""
-Date "17 sep 2013"
+Date "23 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -79,8 +80,9 @@ F0 "Relay" 50
 F1 "Relay.sch" 50
 F2 "DIN+" I L 7900 6000 60 
 F3 "DIN-" I L 7900 6150 60 
-F4 "Relay+" I R 9500 6000 60 
-F5 "Relay-" O R 9500 6150 60 
+F4 "NC" B R 9500 6300 60 
+F5 "NO" B R 9500 6150 60 
+F6 "COM" B R 9500 6000 60 
 $EndSheet
 $Sheet
 S 3350 1200 2100 1500
