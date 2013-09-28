@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title ""
-Date "23 sep 2013"
+Date "28 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -91,16 +91,6 @@ F0 "Power" 50
 F1 "Power.sch" 50
 $EndSheet
 $Sheet
-S 7900 5000 1600 600 
-U 52340BE4
-F0 "LED_Driver" 50
-F1 "LED_Driver.sch" 50
-F2 "EN" I L 7900 5200 60 
-F3 "FREQ" I L 7900 5350 60 
-F4 "String+" O R 9500 5250 60 
-F5 "String-" I R 9500 5400 60 
-$EndSheet
-$Sheet
 S 7900 2650 1600 1200
 U 52340C05
 F0 "Fan" 50
@@ -135,5 +125,14 @@ F6 "V+_ADJ_MON" O L 4950 1950 60
 F7 "V-_ADJ_MON" O L 4950 2100 60 
 F8 "V-_CURR_MON" O L 4950 1700 60 
 F9 "V+_CURR_MON" O L 4950 1550 60 
+$EndSheet
+$Sheet
+S 7900 5000 1600 600 
+U 52340BE4
+F0 "LED_Driver" 50
+F1 "LED_Driver.sch" 50
+F2 "String+" O R 9500 5250 60 
+F3 "String-" I R 9500 5400 60 
+F4 "LED_EN_PWM" I L 7900 5250 60 
 $EndSheet
 $EndSCHEMATC
