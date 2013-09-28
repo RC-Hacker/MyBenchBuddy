@@ -35,7 +35,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 9 9
 Title ""
 Date "28 sep 2013"
 Rev ""
@@ -47,7 +47,7 @@ Comment4 ""
 $EndDescr
 Text HLabel 6500 4150 2    60   Output ~ 0
 RELAY+
-Text HLabel 7800 4200 2    60   Output ~ 0
+Text HLabel 8350 4200 2    60   Output ~ 0
 RELAY-
 Text HLabel 6550 2500 2    60   Output ~ 0
 MOSI
@@ -56,11 +56,7 @@ MISO
 Text HLabel 6550 2200 2    60   Output ~ 0
 SCLK
 Text HLabel 6550 2650 2    60   Output ~ 0
-CS_N
-Text HLabel 9250 2200 0    60   Output ~ 0
-LED_EN
-Text HLabel 9250 2350 0    60   Output ~ 0
-LED_FREQ
+DAC_CS_N
 Text HLabel 6500 4300 2    60   Output ~ 0
 FAN_EN_N
 Text HLabel 2550 3900 0    60   Input ~ 0
@@ -114,17 +110,7 @@ F 3 "" H 7600 4450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7800 4200 7600 4200
-Wire Wire Line
 	7600 4200 7600 4450
-Wire Wire Line
-	6550 2200 5500 2200
-Wire Wire Line
-	5500 2350 6550 2350
-Wire Wire Line
-	6550 2500 5500 2500
-Wire Wire Line
-	5500 2650 6550 2650
 Wire Wire Line
 	5750 4300 5500 4300
 Wire Wire Line
@@ -161,4 +147,147 @@ Wire Wire Line
 	3500 3750 3700 3750
 Wire Wire Line
 	3500 3900 3700 3900
+Text HLabel 2550 3450 0    60   Input ~ 0
+V+_ADJ_MON
+Text HLabel 2550 3600 0    60   Input ~ 0
+V-+ADJ_MON
+$Comp
+L R R?
+U 1 1 52474538
+P 3250 3600
+F 0 "R?" V 3330 3600 40  0000 C CNN
+F 1 "R" V 3257 3601 40  0000 C CNN
+F 2 "~" V 3180 3600 30  0000 C CNN
+F 3 "~" H 3250 3600 30  0000 C CNN
+	1    3250 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5247453E
+P 3250 3450
+F 0 "R?" V 3330 3450 40  0000 C CNN
+F 1 "R" V 3257 3451 40  0000 C CNN
+F 2 "~" V 3180 3450 30  0000 C CNN
+F 3 "~" H 3250 3450 30  0000 C CNN
+	1    3250 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 3450 3000 3450
+Wire Wire Line
+	2550 3600 3000 3600
+Wire Wire Line
+	3500 3450 3700 3450
+Wire Wire Line
+	3500 3600 3700 3600
+$Comp
+L R R?
+U 1 1 52474586
+P 6000 2650
+F 0 "R?" V 6080 2650 40  0000 C CNN
+F 1 "R" V 6007 2651 40  0000 C CNN
+F 2 "~" V 5930 2650 30  0000 C CNN
+F 3 "~" H 6000 2650 30  0000 C CNN
+	1    6000 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5247458C
+P 6000 2500
+F 0 "R?" V 6080 2500 40  0000 C CNN
+F 1 "R" V 6007 2501 40  0000 C CNN
+F 2 "~" V 5930 2500 30  0000 C CNN
+F 3 "~" H 6000 2500 30  0000 C CNN
+	1    6000 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 52474592
+P 6000 2350
+F 0 "R?" V 6080 2350 40  0000 C CNN
+F 1 "R" V 6007 2351 40  0000 C CNN
+F 2 "~" V 5930 2350 30  0000 C CNN
+F 3 "~" H 6000 2350 30  0000 C CNN
+	1    6000 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 52474598
+P 6000 2200
+F 0 "R?" V 6080 2200 40  0000 C CNN
+F 1 "R" V 6007 2201 40  0000 C CNN
+F 2 "~" V 5930 2200 30  0000 C CNN
+F 3 "~" H 6000 2200 30  0000 C CNN
+	1    6000 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 2200 5750 2200
+Wire Wire Line
+	5500 2350 5750 2350
+Wire Wire Line
+	5500 2500 5750 2500
+Wire Wire Line
+	5500 2650 5750 2650
+Wire Wire Line
+	6250 2650 6550 2650
+Wire Wire Line
+	6250 2500 6550 2500
+Wire Wire Line
+	6250 2350 6550 2350
+Wire Wire Line
+	6250 2200 6550 2200
+$Comp
+L R R?
+U 1 1 52474632
+P 7950 4200
+F 0 "R?" V 8030 4200 40  0000 C CNN
+F 1 "R" V 7957 4201 40  0000 C CNN
+F 2 "~" V 7880 4200 30  0000 C CNN
+F 3 "~" H 7950 4200 30  0000 C CNN
+	1    7950 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 4200 7700 4200
+Wire Wire Line
+	8200 4200 8350 4200
+Text HLabel 6550 2800 2    60   Input ~ 0
+LED_EN_PWM
+$Comp
+L R R?
+U 1 1 52474671
+P 6000 2800
+F 0 "R?" V 6080 2800 40  0000 C CNN
+F 1 "R" V 6007 2801 40  0000 C CNN
+F 2 "~" V 5930 2800 30  0000 C CNN
+F 3 "~" H 6000 2800 30  0000 C CNN
+	1    6000 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 2800 5750 2800
+Wire Wire Line
+	6250 2800 6550 2800
+Text HLabel 6550 2950 2    60   Output ~ 0
+ADC_CS_N
+$Comp
+L R R?
+U 1 1 5247C374
+P 6000 2950
+F 0 "R?" V 6080 2950 40  0000 C CNN
+F 1 "R" V 6007 2951 40  0000 C CNN
+F 2 "~" V 5930 2950 30  0000 C CNN
+F 3 "~" H 6000 2950 30  0000 C CNN
+	1    6000 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 2950 5750 2950
+Wire Wire Line
+	6250 2950 6550 2950
 $EndSCHEMATC
