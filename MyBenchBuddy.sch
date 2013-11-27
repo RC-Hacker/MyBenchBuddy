@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title ""
-Date "28 sep 2013"
+Date "27 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -108,20 +108,6 @@ F10 "TC_IN-" I L 10200 4450 60
 F11 "RELAY_COM" I L 10200 6150 60 
 F12 "RELAY_NO" I L 10200 6300 60 
 F13 "RELAY_NC" I L 10200 6000 60 
-$EndSheet
-$Sheet
-S 4950 800  1700 1500
-U 523F9073
-F0 "PowerAdjustmentMonitor" 50
-F1 "PowerAdjustmentMonitor.sch" 50
-F2 "V+_ADJ" O R 6650 1100 60 
-F3 "V-_ADJ" O R 6650 1300 60 
-F4 "3V3_MON" O L 4950 1250 60 
-F5 "5V_MON" O L 4950 1100 60 
-F6 "V+_ADJ_MON" O L 4950 1950 60 
-F7 "V-_ADJ_MON" O L 4950 2100 60 
-F8 "V-_CURR_MON" O L 4950 1700 60 
-F9 "V+_CURR_MON" O L 4950 1550 60 
 $EndSheet
 $Sheet
 S 7900 5000 1600 600 
@@ -261,4 +247,16 @@ Wire Wire Line
 	5350 2900 5350 4750
 Wire Wire Line
 	5350 4750 3950 4750
+$Sheet
+S 4950 800  1700 1500
+U 523F9073
+F0 "PowerAdjustmentMonitor" 50
+F1 "PowerAdjustmentMonitor.sch" 50
+F2 "V+_ADJ" O R 6650 1100 60 
+F3 "V-_ADJ" O R 6650 1300 60 
+F4 "3V3_MON" O L 4950 1250 60 
+F5 "5V_MON" O L 4950 1100 60 
+F6 "V+_ADJ_MON" O L 4950 1950 60 
+F7 "V-_ADJ_MON" O L 4950 2100 60 
+$EndSheet
 $EndSCHEMATC

@@ -54,7 +54,7 @@ TACH_IN
 Text HLabel 1750 5650 0    60   Output ~ 0
 TACH_MEAS
 Text HLabel 1750 3500 0    60   Input ~ 0
-FAN_PWN
+FAN_PWM
 $Comp
 L LM324 U?
 U 1 1 5237DB7A
